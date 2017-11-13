@@ -1,14 +1,19 @@
-from turtle import *
+import turtle
 
-def curvemove():
-    for i in range(200):
-        right(1)
-        forward(1)
-color('red','pink')
-begin_fill()
-left(140)
-forward(111.65)
-curvemove()
-forward(111.65)
-end_fill()
-done()
+wn=turtle.Screen()
+jave=turtle.Turtle()
+jave.fillcolor("pink")
+jave.pencolor("red")
+
+jave.begin_fill()
+
+jave.left(45)
+jave.forward(90)
+jave.circle(45,180)
+jave.right(90)
+jave.circle(45,180)
+jave.forward(90)
+
+jave.end_fill()
+
+turtle.done()
