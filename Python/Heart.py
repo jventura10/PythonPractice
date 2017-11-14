@@ -1,10 +1,11 @@
 import turtle
 
 wn=turtle.Screen()
+wn.bgcolor("white")
 jave=turtle.Turtle()
 jave.fillcolor("pink")
 jave.pencolor("red")
-
+jave.pensize(5)
 jave.begin_fill()
 
 jave.left(45)
