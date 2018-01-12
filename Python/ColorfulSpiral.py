@@ -10,7 +10,7 @@ jave=turtle.Turtle()
 
 #Properties for cursor and background
 jave.speed(0)
-turtle.bgcolor('black')
+wn.bgcolor('black')
 
 #Loop to keep spiral running
 for x in range(360):
