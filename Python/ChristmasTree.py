@@ -55,4 +55,4 @@ for i in range(17,20):
         ventura.goto(-x,-y+280)
         ventura.stamp()        
         
-turtle.exitonclick(
+turtle.exitonclick()
