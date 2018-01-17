@@ -9,11 +9,11 @@ jave.color('red')
 jave.speed('fastest')
 jave.up()
 
-arlene = turtle.Turtle()
-arlene.shape('square')
-arlene.color('green')
-arlene.speed('fastest')
-arlene.up()
+ventura = turtle.Turtle()
+ventura.shape('square')
+ventura.color('green')
+ventura.speed('fastest')
+ventura.up()
 
 jave.goto(0,280)
 jave.stamp()
@@ -23,10 +23,10 @@ for i in range(1, 17):
     y = 30*i
     for j in range(i-k):
         x = 30*j
-        arlene.goto(x,-y+280)
-        arlene.stamp()
-        arlene.goto(-x,-y+280)
-        arlene.stamp()
+        ventura.goto(x,-y+280)
+        ventura.stamp()
+        ventura.goto(-x,-y+280)
+        ventura.stamp()
 
     if i % 4 == 0:
         x =  30*(j+1)
@@ -45,15 +45,14 @@ for i in range(1, 17):
         jave.goto(x,-y+280)
         jave.stamp() 
 
-arlene.color('brown')
+ventura.color('brown')
 for i in range(17,20):
     y = 30*i
     for j in range(3):    
         x = 30*j
-        arlene.goto(x,-y+280)
-        arlene.stamp()
-        arlene.goto(-x,-y+280)
-        arlene.stamp()        
+        ventura.goto(x,-y+280)
+        ventura.stamp()
+        ventura.goto(-x,-y+280)
+        ventura.stamp()        
         
-turtle.exitonclick()
-
+turtle.exitonclick(
